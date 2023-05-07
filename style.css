@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.top {
+  height: 1024px;
+  background-image: url(img/top.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+  padding-top: 217px;
+  max-width: 788px;
+}
+.content__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-top: 32px;
+  max-width: 481px;
+}
+.content__button {
+  width: 234px;
+  height: 48px;
+  background: #9C0332;
+  border-radius: 30px;
+  border-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-top: 44px;
+  transition: all 0.5s;
+}
+.content__button:hover {
+  background: #EB443F;
+}
+
+.game-catalog {
+  background: #000915;
+  height: 556px;
+}
+
+.game-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding-top: 128px;
+}
+
+.game {
+  border-radius: 16px;
+  height: 300px;
+  width: 378px;
+  transition: all 0.3s;
+}
+.game_1 {
+  background-image: url(img/card1.png);
+}
+.game_2 {
+  background-image: url(img/card2.png);
+}
+.game_3 {
+  background-image: url(img/card3.png);
+}
+.game__text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-top: 236px;
+  padding-left: 32px;
+}
+.game:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 32px 2px #44D2FF;
+}/*# sourceMappingURL=style.css.map */
