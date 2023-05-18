@@ -1,0 +1,62 @@
+@media(max-width: 767px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+        
+    }
+    .top{
+        height: 735px; 
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        &__title{
+            font-size: 32px;
+            line-height: 39px;
+            padding-top: 238px;
+        }
+        &__text{
+            font-size: 14px;
+            line-height: 22px;
+            padding-top: 32px;
+        }
+        &__button{
+            margin-top: 32px;
+        }
+    }   
+
+    .game{
+        width: 343px;  
+    }
+ 
+   .year-game-content{
+        padding-top: 51px;
+        gap: 64px;
+   }
+   
+   .left-box{
+        align-items: center;
+        text-align: center;
+        height: 235px;
+        width: 584px;
+        &__header{
+            font-size: 32px;
+            line-height: 39px;
+            
+        }
+        &__text{
+            font-size: 14px;
+            line-height: 22px;
+        }   
+    }
+    .right-box{
+        padding-bottom: 85px;
+        &__icon{
+            width: 344px;
+            height: 236px;
+        }
+    }
+
+}
