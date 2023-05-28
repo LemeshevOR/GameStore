@@ -34,7 +34,7 @@ body {
   line-height: 78px;
   color: #FFFFFF;
   padding-top: 217px;
-  max-width: 788px;
+  max-width: 760px;
 }
 .content__text {
   font-weight: 300;
@@ -103,25 +103,38 @@ body {
   box-shadow: 0px 5px 32px 2px #44D2FF;
 }
 
-.year-game {
+.full-game {
   background: #000915;
-  max-height: 800px;
+  height: 800px;
 }
 
-.year-game-content {
+.full-game_center {
+  background-image: url(img/game3-back.jpg);
+}
+
+.full-game-content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 233px;
+  padding-bottom: 233px;
+}
+
+.full-game-content_reflection {
+  flex-direction: row-reverse;
+}
+
+.full-game-content_center {
+  padding-top: 276px;
 }
 
 .left-box {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  height: 235px;
   width: 584px;
+  justify-content: center;
 }
 .left-box__header {
   font-weight: 700;
@@ -152,6 +165,26 @@ body {
   background: #EB443F;
 }
 
+.left-box_center {
+  width: 1200px;
+  text-align: center;
+  align-items: center;
+}
+
+.footer {
+  height: 80px;
+  background: #000915;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -179,17 +212,23 @@ body {
   .content__button {
     margin-top: 32px;
   }
+  .games-catalog {
+    padding-bottom: 127px;
+  }
   .game {
     width: 343px;
   }
-  .year-game-content {
+  .full-game {
+    height: 653px;
+  }
+  .full-game-content {
     padding-top: 51px;
     gap: 64px;
+    padding-bottom: 85px;
   }
   .left-box {
     align-items: center;
     text-align: center;
-    height: 235px;
     width: 584px;
   }
   .left-box__header {
@@ -200,11 +239,11 @@ body {
     font-size: 14px;
     line-height: 22px;
   }
-  .right-box {
-    padding-bottom: 85px;
-  }
-  .right-box__icon {
+  .right-box__icon-img {
     width: 344px;
     height: 236px;
+  }
+  .full-game_center {
+    height: 800px;
   }
 }/*# sourceMappingURL=style.css.map */

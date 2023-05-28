@@ -27,19 +27,24 @@
         }
     }   
 
+    .games-catalog{
+        padding-bottom: 127px;
+    }
     .game{
         width: 343px;  
     }
- 
-   .year-game-content{
+    .full-game{
+        height: 653px;  
+    }
+   .full-game-content{
         padding-top: 51px;
         gap: 64px;
+        padding-bottom: 85px;
    }
    
    .left-box{
         align-items: center;
         text-align: center;
-        height: 235px;
         width: 584px;
         &__header{
             font-size: 32px;
@@ -52,11 +57,14 @@
         }   
     }
     .right-box{
-        padding-bottom: 85px;
-        &__icon{
+        &__icon-img{
             width: 344px;
             height: 236px;
         }
+    }
+
+    .full-game_center{
+        height: 800px;
     }
 
 }
