@@ -1,5 +1,3 @@
-
-window.addEventListener("load", function() {
 //Задание 1:
 let a = 10;
 alert(`Вывод переменной cо значением 10: ${a}`);
@@ -7,11 +5,11 @@ a = 20;
 alert(`Вывод переменной cо значением 20:  ${a}`);
 
 //Задание 2:
-const releasefull = 2007;
-alert(`Год выпуска первого iphone: ${releasefull}`);
+let releaseYear = 2007;
+alert(`Год выпуска первого iphone: ${releaseYear}`);
 
 //Задание 3:
-const creatorName = "olegzuz";
+let creatorName = "olegzuz";
 alert(`Ваше имя: ${creatorName}`);
 
 //Задание 4:
@@ -72,4 +70,3 @@ alert(user[info]);
 //Задание 10:
 let name1 = prompt("Как вас зовут?");
 alert(`Привет, ${name1}!`);
-});
