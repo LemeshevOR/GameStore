@@ -1,3 +1,5 @@
+
+window.addEventListener("load", function() {
 //Задание 1:
 let a = 10;
 alert(`Вывод переменной cо значением 10: ${a}`);
@@ -5,11 +7,11 @@ a = 20;
 alert(`Вывод переменной cо значением 20:  ${a}`);
 
 //Задание 2:
-let releaseYear = 2007;
-alert(`Год выпуска первого iphone: ${releaseYear}`);
+const releasefull = 2007;
+alert(`Год выпуска первого iphone: ${releasefull}`);
 
 //Задание 3:
-let creatorName = "olegzuz";
+const creatorName = "olegzuz";
 alert(`Ваше имя: ${creatorName}`);
 
 //Задание 4:
@@ -70,3 +72,4 @@ alert(user[info]);
 //Задание 10:
 let name1 = prompt("Как вас зовут?");
 alert(`Привет, ${name1}!`);
+});
