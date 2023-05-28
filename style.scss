@@ -35,7 +35,7 @@ body{
         line-height: 78px;
         color: #FFFFFF;
         padding-top: 217px;
-        max-width: 788px;
+        max-width: 760px;
     }
     &__text{
         font-weight: 300;
@@ -64,11 +64,11 @@ body{
     }
     
 }
-.game-catalog {
+.games-catalog {
     background: #000915;
-    height: 556px;  
+    min-height: 556px;  
 }
-.game-content{
+.games-content{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -103,3 +103,86 @@ body{
         box-shadow: 0px 5px 32px 2px #44D2FF;
     }
 }
+.full-game{
+    background: #000915;
+    height: 800px;  
+}
+.full-game_center{
+    background-image: url(img/game3-back.jpg);
+}
+
+.full-game-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 233px;
+    padding-bottom: 233px;
+}
+.full-game-content_reflection{
+    flex-direction: row-reverse;  
+}
+.full-game-content_center{
+    padding-top: 276px;
+
+}
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 584px;
+    justify-content: center;
+    &__header{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+   }
+   &__text{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+   }
+
+   &__button{
+    width: 234px;
+    height: 48px;
+    background: #9C0332;
+    border-radius: 30px;
+    border-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF; 
+    transition: all .5s;
+    &:hover{
+        background: #EB443F;
+    }
+   }
+   
+}
+
+.left-box_center{
+    width: 1200px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer{
+    height: 80px;
+    background: #000915;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+}
+
+@import 'mobile';
